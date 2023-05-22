@@ -40,6 +40,10 @@ body {
 
 .hero-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 10px;
     background-color: #1f2937;
 }
 
@@ -58,4 +62,21 @@ body {
     background-color: gray;
     width: 400px;
     height: 200px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.hero-left button {
+    width: 150px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 8px;
+    color: #e5e7eb;
+    font-weight: bold;
+    margin-top: 8px;
 }
